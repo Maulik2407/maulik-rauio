@@ -1,0 +1,958 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="risponsive.css">
+    <script src="https://kit.fontawesome.com/24303e5d50.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <div class="mini-nav px-5 py-3 d-md-flex align-items-center justify-content-between"
+        style="background: rgba(67, 109, 22, 0.906);">
+        <span class="d-md-flex d-none gap-3 align-items-center">
+            <i class="fa-regular fa-envelope fs-4 text-white"></i><a href="">Hello@Email.co</a>
+            <i class="fa-solid fa-phone ms-3 fs-4 text-white"></i><a href="">( +44 ) 123 456 789</a>
+        </span>
+        <span class="d-flex gap-3 align-items-center">
+            <i class="fa-brands fa-facebook fs-4 text-white"></i>
+            <i class="fa-brands fa-twitter fs-4 text-white"></i>
+            <i class="fa-brands fa-youtube fs-4 text-white"></i>
+            <i class="fa-brands fa-pinterest fs-4 text-white"></i>
+        </span>
+    </div>
+
+    <div class="container-fluid main-first-con"
+        style="background-image: url('bg-2.jpg'); background-repeat: no-repeat; background-size: cover; position: relative; overflow: hidden;">
+
+        <div class="row px-xl-5" style="position: relative;">
+
+
+            <div class="op-box col-12 align-items-center justify-content-center ">
+                <button onclick="closeclik()"
+                    style="position: absolute; right: 50px; top: 40px; color: white; background: none; padding: 15px 20px; border-radius: 50%; border: 2px solid white;"><i
+                        class="fa-solid fa-x fs-4"></i></button>
+                <iframe class="youT" width="780" height="450"
+                    src="https://www.youtube.com/embed/VhBl3dHT5SY?si=zPAHNKkUNjsMNV_z" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <!-- navbar  -->
+            <nav class="navbar navbar-expand-lg py-4" style="background: white; border-radius: 0 0 30px 30px;">
+                <div class="container-fluid">
+                   <span class="fs-2 gap-2" style="font-weight: bolder;"> <img src="logo-4.png" alt="" class="ms-3" style="width: 50px;">MAULIK</span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto gap-5 mx-auto mb-2 mb-lg-0 d-xl-flex d-md-none d-flex">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services +
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Our Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Gallery
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages +
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex gap-3 me-md-3 align-items-center ms-lg-auto" role="search">
+                            <button class="btn"
+                                style="padding: 15px 30px; color: white; border-radius: 30px; font-weight: bold; background: #37987b; ">Get
+                                a Quote</button>
+                            <i class="fa-solid fa-bars fs-1" style="color: #37987b;"></i>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <!--   left -->
+
+
+            <div class="col-md-9 px-md-5 text-white" style="z-index: 1;">
+                <div class="text-card py-md-3 d-flex flex-column gap-3 mt-5">
+                    <p>INTERIOR DESIGN & REPAINT</p>
+                    <h1 data-aos="fade-up" data-aos-delay="10" data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">Make Over Your <br> House Interior <br> Design</h1>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus <br> nec
+                        ullamcorper
+                        mattis, pulvinar dapibus leo.</p>
+                    <span class="d-md-flex gap-4">
+                        <button class="upbtx">Our Servces</button>
+                        <button class="nnbtx mt-md-0 mt-3">See Our Work</button>
+                    </span>
+
+                </div>
+            </div>
+
+            <!-- right -->
+
+            <div data-aos="fade-left" data-aos-delay="10" data-aos-duration="1200"
+            data-aos-easing="ease-in-out" class="col baa d-flex align-items-center justify-content-end" style="z-index: 1;">
+
+                <button class="animated-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                        <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                        </path>
+                    </svg>
+                    <span class="text d-xl-flex d-none ">LETS DISCOVER MORE</span>
+                    <span class="circle"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                        <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+
+            <!--  bott -->
+
+            <div class="col-xl-11 d-flex mt-md-4 mt-4" data-aos="fade-left" data-aos-offset="100"
+                data-aos-delay="10" data-aos-duration="1600" data-aos-easing="ease-in-out">
+
+                <div class="row" style="  border-radius: 0 0 34px 0 ; overflow: hidden;">
+
+                    <div class="col-md-3 p-0 d-flex align-items-center justify-content-between"
+                        style="position: relative; border-radius: 34px 0 0 0; overflow: hidden;">
+                        <img src="hotelroom.jpeg" alt="" style="width: 100%; height: 100%;">
+
+                        <button class="bt-box" onclick="openX()"><i class="fa-solid fa-play"></i></button>
+
+                    </div>
+                    <div class="col-md-3 d-flex flex-column align-items-center justify-content-center ttx-1 p-0"
+                        style="background: rgb(16, 68, 7);">
+                        <span class="d-flex align-items-center text-white gap-3"><i
+                                class="fa-solid fa-file-lines fs-1"></i>
+                            <h1 class="fs-4 mt-xl-0 mt-4">Best Task List</h1>
+                        </span>
+                        <p style="letter-spacing: 1px;">Lorem ipsum <br> dolor sit amet, <br> consectetur</p>
+                    </div>
+                    <div class="col-md-3 d-flex text-black flex-column align-items-center justify-content-center ttx-1 p-0"
+                        style="background: whitesmoke;">
+                        <span class="fs-1  mt-xl-0 mt-5" style="color: rgb(60, 193, 12); font-weight: bolder;">852 +</span>
+                        <h1 class="fs-4">Project Done</h1>
+                        <p style="letter-spacing: 1px;">Lorem ipsum dolor</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--    con-2  -->
+
+    <div class="container-fluid">
+        <div class="row py-md-3">
+            <!-- left -->
+            <div class="col-xl-6 col-12 px-4 d-flex align-items-center justify-content-center py-3"
+                style="position: relative;">
+                <img class="c-ibox" src="m-1.jpg" alt="">
+                <div class="row d-flex flex-column gap-5" data-aos="fade-right" data-aos-offset="100"
+                    data-aos-delay="10" data-aos-duration="1500" style="position: absolute; right: 5%; top: 40%;">
+                    <div class="sec-ttx d-flex flex-column py-md-3 py-2 text-white"
+                        style="background: rgba(4, 161, 148, 0.931);">
+                        <span class="d-flex align-items-center gap-3"><i class="fa-solid fa-business-time fs-1"></i>
+                            <span class="">
+                                <h1 class="fs-5"> Business Hours</h1>
+                                <p class="fs-5">Sun - Fri 08 AM - 04 PM</p>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="sec-ttx d-flex flex-column py-3 text-white"
+                        style="background: rgba(20, 50, 87, 0.947);">
+                        <span class="d-flex align-items-center gap-3"><i class="fa-solid fa-phone-volume fs-1"></i>
+                            <span class="">
+                                <h1 class="fs-5"> Lets Call Us Now</h1>
+                                <p class="fs-5">( +44 ) 123 456 789</p>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right  -->
+            <div class="col-xl-6 px-md-5 px-4 p-0 py-md-5 sec-right-ttx d-flex flex-column  justify-content-center"
+                style="background-image: url('bb-s.jpg'); background-size: cover;">
+                <p style="color: rgb(7, 132, 113); font-weight: bold;">WHO WE ARE</p>
+                <h1 data-aos="fade-up" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">We Are a Team
+                    Interior Design Agency & Better House Repaint Services</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus leo. <br> <br>
+
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit
+                    anim id est laborum.</p>
+                <span class="d-md-flex py-md-5 gap-4" style="border-bottom: 1px solid rgba(0, 0, 0, 0.83);">
+                    <button class="secbtx"> <img src="calendar2.webp" alt="" style="width: 50px;">10 Years
+                        Experience</button>
+                    <button class="bckk mt-md-0 mt-4">Learn About us <i class="fa-solid fa-arrow-right"></i></button>
+                </span>
+                <div class="col-12 mb-md-3 d-flex align-items-center gap-5">
+                    <img src="Vector-1.png" alt="" style="width: 150px;">
+                    <span>
+                        <h1 class="fs-4"> Mr. John Doe</h1>
+                        <p class="fs-md-5" style="color: #078d3d;">FOUNDER BUSINESS</p>
+                    </span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!--   con-3 -->
+
+    <div class="cantainer-fluid"
+        style="background-image: url('b-x2.avif'); background-repeat: no-repeat; background-size: cover;">
+        <div class="row px-md-5 mx-auto d-flex align-items-center p-0">
+
+            <!-- left -->
+            <div class="col py-5 six-ttx d-flex flex-column gap-4">
+                <p style="color: #37987b;">MAKE OVER FROM OLD</p>
+                <h1>We Provide The Great Interior Design Make Over</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus leo.</p>
+                <span>
+                    <button class="dpbtx">Lets see work</button>
+                    <button class="nnbtx fs-5" style="color: #0d8052dc; font-weight: bold;"> <i
+                            class="fa-solid fa-phone-volume "></i> 123 456 789</button>
+                </span>
+
+                <div class="row d-flex p-0" style="border-radius: 30px; overflow: hidden;" data-aos="fade-left" data-aos-delay="10" data-aos-duration="1300"
+                data-aos-easing="ease-in-out">
+                    <div class="card-six p-0" style="width: 350px; height: 220px;">
+                        <img src="s-imag-1.webp" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="card-six d-flex text-white gap-4 px-5 flex-column align-items-start justify-content-center"
+                        style="width: 290px; background: rgba(9, 60, 85, 0.88);">
+                        <img src="quotes-left.png" alt="" style="width: 40px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--  right  -->
+            <div class="col d-flex align-items-center justify-content-center">
+                <div class="ow-img col-md-12 mx-md-auto gap-md-5 gap-3 d-flex align-items-center justify-content-center"
+                    style="position: relative;">
+                    <img data-aos="fade-up" data-aos-delay="10" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out" class="i-1" src="i-1.jpg" alt="">
+                    <span 
+                    data-aos="fade-left" data-aos-delay="10" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out"   style="padding: 19px 25px; background: rgb(249, 71, 6); color: white; font-size: 25px; border-radius: 10px; position: absolute;">
+                        <i 
+                            class="fa-solid fa-arrow-right-long"></i></span>
+                    <img data-aos="fade-up" data-aos-delay="10" data-aos-duration="1300"
+                    data-aos-easing="ease-in-out" class="i-2" src="i-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--   con-4  -->
+
+    <div class="container-fluid" style="overflow: hidden;">
+        <div class="row py-4 d-flex align-items-center justify-content-center">
+            <div  class="col-12 px-5 d-flex four-ttx flex-column justify-content-center gap-3">
+                <p>WE DO THE BEST</p>
+                <h1 data-aos="fade-up" data-aos-delay="10" data-aos-duration="1100"
+                data-aos-easing="ease-in-out">
+                    We Believe If We Do The <br> Best Is Make a Good Service
+                </h1>
+                <p data-aos="fade-up" data-aos-delay="10" data-aos-duration="1200"
+                data-aos-easing="ease-in-out">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus <br> nec ullamcorper
+                    mattis, pulvinar dapibus leo.</p>
+            </div>
+
+
+            <div class="col-md-11 mx-auto four-ttx-bott " style="margin-top: -8%;">
+                <div class="row p-0 d-flex" data-aos="fade-up" data-aos-delay="10" data-aos-duration="1100"
+                data-aos-easing="ease-in-out"  style=" border-radius: 30px; overflow: hidden;">
+
+                    <div class="col card-for d-flex gap-3 align-items-start justify-content-center px-5 py-5"
+                        style="background-image: url('FC-1.jpg'); background-size: cover;">
+
+                        <i class="fa-solid fa-house fs-2" style="z-index: 1; color: white;"></i>
+                        <span class="d-flex flex-column align-items-center">
+                            <h1> Building Interior </h1>
+                            <p> Lorem ipsum dolor sit amet consectetur</p>
+                        </span>
+                    </div>
+
+                    <div class="col card-for-2 d-flex gap-3 align-items-start justify-content-center px-5 py-5">
+
+                        <img src="FC-2.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+
+                        <i class="fa-regular fa-lightbulb fs-1"></i>
+                        <span class="d-flex flex-column align-items-center">
+                            <h1>Office nterior </h1>
+                            <p> Lorem ipsum dolor sit amet consectetur</p>
+                        </span>
+                    </div>
+
+                    <div class="col card-for-3 d-flex gap-3 align-items-start justify-content-center px-5 py-5">
+
+                        <img src="FC-3" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                        <i class="fa-solid fa-building-wheat fs-1" style="color: white; z-index: 1;"></i>
+                        <span class="d-flex flex-column align-items-center">
+                            <h1>Buliding Interior </h1>
+                            <p> Lorem ipsum dolor sit amet consectetur</p>
+                        </span>
+
+                    </div>
+
+                    <div
+                        class="col card-for d-flex flex-column align-items-center justify-content-center px-5 py-5">
+                        <span class="d-flex align-items-center gap-4">
+                            <h1 class="fs-4">Discover All Services</h1>
+                            <i class="fa-solid fa-arrow-right-long text-white fs-2" style="z-index: 1;"></i>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!--   con-5   -->
+
+    <div class="contaner-fluid five-main-con" style="overflow: hidden;">
+        <div class="row px-md-5 p-0">
+            <!-- left-5 -->
+            <div class="col d-flex p-0 ms-4 py-4" style="position: relative;">
+
+                <img class="fiv-img" src="fv5.jpg" alt="">
+                <div class="fiv-box" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1100"
+                    data-aos-easing="ease-in-out">
+                    <span class="d-flex text-white fw-bold gap-2">
+                        <h1 class="h-bbx fs-2"></h1>+
+                    </span>
+                    <h1>Happy Clients</h1>
+                    <p>Lorem ipsum dolor</p>
+                </div>
+                <img class="fiv-img-2" src="fv2.jpg" alt="">
+            </div>
+
+            <!-- right-5 -->
+            <div class="col-xl-6 px-xl-0 px-5  right-card-box d-flex flex-column justify-content-evenly">
+
+
+                <div class="fiv-text">
+                    <p style="color: #0fab7f; font-weight: bold;">WE HAVE DEDICATED SKILLS</p>
+                    <h1  data-aos="fade-up" data-aos-delay="10" data-aos-duration="1100"
+                    data-aos-easing="ease-in-out"  class="fs-1">The Right Team Work Is <br> Fine With Our Business</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis, pulvinar dapibus leo.</p>
+                </div>
+
+                <div class="mk-box d-flex flex-column gap-3">
+                    <span class="d-flex gap-3 align-items-center"><i class="fa-solid fa-square-check fs-4"></i> Team
+                        With High Skills</span>
+                    <span class="d-flex gap-3 align-items-center"><i class="fa-solid fa-square-check fs-4"></i>
+                        Professionals & Dedication Services</span>
+                    <span class="d-flex gap-3 align-items-center"><i class="fa-solid fa-square-check fs-4"></i> And Much
+                        More We Have The Best</span>
+                </div>
+
+                <div class="row d-flex flex-column gap-5">
+                    <div class="sp-line">
+                        <div class="ttx-line d-flex justify-content-between">
+                            <h1>Architecture Skills</h1>
+                            <span class="d-flex fw-bold">
+                                <h1 class="line-pro"></h1> %
+                            </span>
+                        </div>
+                        <div class="line d-flex"
+                            style="width: 100%; height: 13px; overflow: hidden; background: rgba(128, 128, 128, 0.379); border-radius: 15px;">
+                            <span class="scroll-line"></span>
+                        </div>
+                    </div>
+
+                    <div class="sp-line">
+                        <div class="ttx-line d-flex justify-content-between">
+                            <h1>Architecture Skills</h1>
+                            <span class="d-flex fw-bold">
+                                <h1 class="line-max"></h1> %
+                            </span>
+                        </div>
+                        <div class="line d-flex"
+                            style="width: 100%; height: 13px; overflow: hidden; background: rgba(128, 128, 128, 0.379); border-radius: 15px;">
+                            <span class="scroll-line-two"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="b-box">
+                        <button class="dpbtx">Lets Get a Quote</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--    con-6  -->
+
+    <div class="contaner-fluid">
+        <div class="row px-md-5 py-5 mx-auto">
+            <div class="col py-4 d-flex flex-column align-items-center justify-content-center">
+                <p style="color: #0fab7f; font-weight: bold; letter-spacing: 3px;">OUR LATEST WORK</p>
+                <h1  data-aos="fade-up" data-aos-delay="10" data-aos-duration="1100"
+                data-aos-easing="ease-in-out"  class="fs-1" style="font-weight: bold; letter-spacing: 4px;">Lets Discover Work</h1>
+            </div>
+
+            <div class="row p-0 mx-auto" style="border-radius: 35px; overflow: hidden;">
+
+                <div class="col-md-4 six-ibox p-0">
+                    <img src="six-1.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+
+                <div class="col-md-4 py-5 text-white ss-box" style="background: rgb(46, 104, 141);">
+                    <i class="fa-solid fa-paint-roller fs-1"></i>
+                    <h1 class="fs-3">House Interior & Repaint</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+                </div>
+
+                <div class="col-md-4 six-ibox p-0">
+                    <img src="six-2.avif" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+
+                <div class="col-md-4 py-5 text-white ss-box" style="background: rgba(207, 80, 34, 0.912);">
+                    <i class="fa-brands fa-wordpress-simple fs-1"></i>
+                    <h1 class="fs-3">Interior Installation Work</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+                </div>
+
+                <div class="col-md-4 six-ibox p-0">
+                    <img src="six-3.png" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+
+                <div class="col-md-4 py-5 d-flex align-items-center justify-content-center"
+                    style="background: #37987b;">
+                    <button class="nnbtx fw-bold">Discover All Work <i class="fa-solid fa-arrow-right ms-2"></i></button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--   con-7   -->
+
+    <div class="container-fluid" style="background: whitesmoke;">
+        <div class="row p-0 mx-auto">
+            <div class="col-xl-8 p-0 mx-auto d-flex align-items-end justify-content-end"
+                style="position: relative; overflow: hidden;">
+                <div  data-aos="fade-left" data-aos-delay="10" data-aos-duration="1100"
+                data-aos-easing="ease-in-out"  class="sevv-card me-5 col-md-6 px-md-5 px-3 py-3 d-flex flex-column justify-content-evenly align-items-start"
+                    style="position: absolute; left: 10%; top: 10%;">
+                    <p>
+                        WHY SHOULD US
+                    </p>
+                    <h1 class="fs-1">Lets See Why You Must Use Our Interior Design Service & Provided</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis</p>
+                    <button class="dpbtx">Lets Get a Quote</button>
+                </div>
+                <img src="sev-1.jpg" alt="" style="width: 535px;">
+            </div>
+
+            <!--  right  -->
+            <div class="col d-flex align-items-center py-md-0 py-4 justify-content-center flex-column gap-5"
+                style="background-image: url('bgg-3.jpg'); background-size: cover; background-position: center;">
+                <div class="sev-section d-flex gap-5">
+                    <span><i class="fa-brands fa-google fs-1"></i></span>
+                    <span>
+                        <h1 class="fs-4">4.9 Google Rating Based</h1>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </span>
+                </div>
+                <div class="sev-section d-flex gap-5">
+                    <span><i class="fa-solid fa-shield-halved fs-1"></i></span>
+                    <span>
+                        <h1 class="fs-4">Money Back Guarante</h1>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </span>
+                </div>
+                <div class="sev-section d-flex gap-5">
+                    <span><i class="fa-solid fa-business-time fs-1 me-md-4"></i></span>
+                    <span>
+                        <h1 class="fs-4">Legal Of Business</h1>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </span>
+                </div>
+                <div class="sev-section d-flex gap-5">
+                    <span><i class="fa-solid fa-bars fs-1"></i></span>
+                    <span>
+                        <h1 class="fs-4">Consistency Task Work</h1>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--   con-8 -->
+
+    <div class="container-fluid">
+        <div class="row p-0">
+
+            <div class="col-xl-6 px-xl-5 d-flex flex-column justify-content-evenly">
+                <div class="eight-ttx d-flex flex-column gap-2">
+                    <p style="color: #37987b; font-weight: bold; letter-spacing: 2px;">HOW ITS WORK</p>
+                    <h1  data-aos="fade-up" data-aos-delay="10" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"  class="fs-1 fw-bold">Talk Us First & Make an Quoation For Get Services</h1>
+                    <p class="fs-5" style="letter-spacing: 1px;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div class="eight-isec mx-auto mt-5">
+                    <div class="col-md-11 col-11 w-100 h-100"
+                        style="background: rgba(252, 227, 198, 0.893); border-radius: 25px;">
+                        <img src="ee-1.jpg" alt=""
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 25px; margin-top: -9%; margin-left: 8%; border: 10px solid white;">
+                    </div>
+                </div>
+            </div>
+
+            <!--  right  -->
+            <div class="col py-5 px-md-5 d-flex flex-column align-items-center">
+
+                <div  data-aos="fade-up" data-aos-delay="10" data-aos-duration="900"
+                data-aos-easing="ease-in-out"  class="eight-card px-5 py-4 w-100 d-flex align-items-center gap-md-5"
+                    style="border-radius: 23px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+                    <h1 class="numbox">01</h1>
+                    <span class="d-flex flex-column align-items-start">
+                        <h1 class="fs-4 fw-bold">Choose Our Servie & pricing</h1>
+                        <p class="fs-5">Lorem ipsum dolor sit amet</p>
+                    </span>
+                </div>
+                <div  data-aos="fade-up" data-aos-delay="10" data-aos-duration="1100"
+                data-aos-easing="ease-in-out"  class="eight-card mt-md-4 mt-3 px-5 py-4 w-100 d-flex align-items-center gap-md-5"
+                    style="border-radius: 23px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+                    <h1 class="numbox">02</h1>
+                    <span class="d-flex flex-column align-items-start">
+                        <h1 class="fs-4 fw-bold">Talk Us & Make a Quotation</h1>
+                        <p class="fs-5">Lorem ipsum dolor sit amet</p>
+                    </span>
+                </div>
+                <div  data-aos="fade-up" data-aos-delay="10" data-aos-duration="1200"
+                data-aos-easing="ease-in-out"  class="eight-card mt-md-4 mt-3 px-5 py-4 w-100 d-flex align-items-center gap-md-5"
+                    style="border-radius: 23px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+                    <h1 class="numbox">03</h1>
+                    <span class="d-flex flex-column align-items-start">
+                        <h1 class="fs-4 fw-bold">Lets Brief & Brainstorming</h1>
+                        <p class="fs-5">Lorem ipsum dolor sit amet</p>
+                    </span>
+                </div>
+                <div  data-aos="fade-up" data-aos-delay="10" data-aos-duration="1400"
+                data-aos-easing="ease-in-out"  class="eight-card mt-md-4 mt-3 px-5 py-4 w-100 d-flex align-items-center gap-md-5"
+                    style="border-radius: 23px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+                    <h1 class="numbox">04</h1>
+                    <span class="d-flex flex-column align-items-start">
+                        <h1 class="fs-4 fw-bold">We Do Service For You</h1>
+                        <p class="fs-5">Lorem ipsum dolor sit amet</p>
+                    </span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--    con-9   -->
+
+
+    <div class="container-fluid" style="overflow: hidden;">
+        <div class="row py-md-5">
+
+            <!--   left -->
+            <div class="col-xl-6 nine-main-left d-flex flex-column justify-content-evenly">
+                <div class="eight-ttx px-5 mt-xl-4 d-flex flex-column gap-xl-3">
+                    <p style="color: #37987b; font-weight: bold; letter-spacing: 2px;">TESTIMONIALS CLIENT</p>
+                    <h1 class="fs-1 fw-bold" style="letter-spacing: 2px;">They Was Use Our Services & Get The Geat
+                        Experience From Us</h1>
+                    <p class="fs-5" style="letter-spacing: 1px;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div class="row coro-row mx-auto ms-xl-4" style="overflow: hidden;">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="background: whitesmoke;">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active py-2 px-2">
+                                <span style="color: rgb(226, 226, 15);">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> <br>
+                                <i class="fa-solid fa-quote-right fs-1"></i>
+                                <p class="fs-xl-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                                    tellus, luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+                                <div class="neno-box mt-4 d-flex gap-4">
+                                    <img src="nine-cc.jpg" alt=""
+                                        style="border-radius: 50%; width: 70px; height: 50px;">
+                                    <span>
+                                        <h1 class="fs-5">Mr.John Doe</h1>
+                                        <p style="color: #0fab7f; font-weight: bold; letter-spacing: 1px;">DESIGNATION
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item py-2 px-2">
+                                <span style="color: rgb(226, 226, 15);">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> <br>
+                                <i class="fa-solid fa-quote-right fs-1"></i>
+                                <p class="fs-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                                    tellus, luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+                                <div class="neno-box mt-4 d-flex gap-4">
+                                    <img src="maulik-img.jpg" alt=""
+                                        style="border-radius: 50%; width: 70px; height: 70px;">
+                                    <span>
+                                        <h1 class="fs-5">Mr.maulik solanki</h1>
+                                        <p style="color: #0fab7f; font-weight: bold; letter-spacing: 1px;">DESIGNATION
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <span style="color: rgb(226, 226, 15);">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> <br>
+                                <i class="fa-solid fa-quote-right fs-1"></i>
+                                <p class="fs-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                                    tellus, luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+                                <div class="neno-box mt-4 d-flex gap-4">
+                                    <img src="nine-cc.jpg" alt=""
+                                        style="border-radius: 50%; width: 70px; height: 50px;">
+                                    <span>
+                                        <h1 class="fs-5">Mr.John Doe</h1>
+                                        <p style="color: #0fab7f; font-weight: bold; letter-spacing: 1px;">DESIGNATION
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--   right   -->
+
+            <div class="col-xl-6 d-flex gap-2">
+                <div class="n-box-1 p-0">
+                    <img src="nine-i-1.1.avif" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <span class="d-flex flex-column justify-content-center w-75 gap-5">
+                    <div class="n-box-2">
+                        <img src="six-3.png" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="n-box-2">
+                        <img src="nine-i-3.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--    con-10   -->
+
+
+    <div class="container-fluid">
+        <div class="row px-4">
+
+            <div class="col py-2 d-flex align-items-center justify-content-center flex-column">
+                <p class="fw-bold" style="color: #0fab7f;">OUR BLOG</p>
+                <h1  data-aos="fade-up" data-aos-delay="10" data-aos-duration="1000"
+                data-aos-easing="ease-in-out"  class="fs-1 fw-bold">Our Content & Resource</h1>
+            </div>
+
+            <div class="row d-flex py-5">
+
+                <div class="col-xl-4">
+                    <div class="col p-0 ten-section"
+                        style="position: relative; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+                        <div class="ten-ibox" style="border-radius: 30px; overflow: hidden; position: relative;">
+                            <img src="t-1.jpg" alt="" style="width: 100%; height: 100%;">
+
+                            <div class="ck-box d-flex flex-column align-items-start justify-content-between">
+                                <span class="px-4 py-2 ms-3 fw-bold mt-4"
+                                    style="background: bisque; color: #0fab7f; letter-spacing: 1px; border-radius: 20px;">BLOG</span>
+                            </div>
+
+                        </div>
+
+                        <span class="sup-spn d-flex flex-column text-white align-items-center justify-content-center">
+                            <h1 class="fw-bold">10</h1>JAN
+                        </span>
+
+                        <div class="ten-ttx d-flex gap-2 flex-column align-items-start px-4 py-5">
+                            <h1 class="fs-2 fw-bold" style="letter-spacing: 1px;">
+                                Tips Coffe Table Set For House Interior
+                            </h1>
+                            <p style="letter-spacing: 1px; font-size: 17px;">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                            <button class="tenbtx">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  2  -->
+                <div class="col-xl-4 mt-xl-0 mt-3">
+                    <div class="col p-0 ten-section"
+                        style="position: relative; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+                        <div class="ten-ibox" style="border-radius: 30px; overflow: hidden; position: relative;">
+                            <img src="t-2.jpg" alt="" style="width: 100%; height: 100%;">
+
+                            <div class="ck-box d-flex flex-column align-items-start justify-content-between">
+                                <span class="px-4 py-2 ms-3 mt-4 fw-bold"
+                                    style="background: bisque; color: #0fab7f; letter-spacing: 1px; border-radius: 20px;">BLOG</span>
+                            </div>
+
+                        </div>
+
+                        <span class="sup-spn d-flex flex-column text-white align-items-center justify-content-center">
+                            <h1 class="fw-bold">10</h1>JAN
+                        </span>
+
+                        <div class="ten-ttx d-flex gap-2 flex-column align-items-start px-4 py-5">
+                            <h1 class="fs-2 fw-bold" style="letter-spacing: 1px;">
+                                Family Interior Design Best For Inspiration
+                            </h1>
+                            <p style="letter-spacing: 1px; font-size: 17px;">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                            <button class="tenbtx">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--   3   -->
+
+                <div class="col-xl-4 mt-xl-0 mt-3">
+                    <div class="col p-0 ten-section"
+                        style="position: relative; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+                        <div class="ten-ibox" style="border-radius: 30px; overflow: hidden; position: relative;">
+                            <img src="t-3.jpg" alt="" style="width: 100%; height: 100%;">
+
+                            <div class="ck-box d-flex flex-column align-items-start justify-content-between">
+                                <span class="px-4 py-2 fw-bold ms-3 mt-4"
+                                    style="background: bisque; color: #0fab7f; letter-spacing: 1px; border-radius: 20px;">BLOG</span>
+                            </div>
+
+                        </div>
+
+                        <span class="sup-spn d-flex flex-column text-white align-items-center justify-content-center">
+                            <h1 class="fw-bold">10</h1>JAN
+                        </span>
+
+                        <div class="ten-ttx d-flex gap-2 flex-column align-items-start px-4 py-5">
+                            <h1 class="fs-2 fw-bold" style="letter-spacing: 1px;">
+                                Best Choicing Furniture For Family Room
+                            </h1>
+                            <p style="letter-spacing: 1px; font-size: 17px;">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                            <button class="tenbtx">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--   con-11  -->
+
+
+    <div class="container-fluid">
+        <div class="row p-0">
+
+            <div class="col ele-one py-5 px-5 d-flex align-items-center justify-content-between" style="background-color: whitesmoke;">
+                <h1 class="fw-bold fss-3">Subscribe Our Newslater</h1>
+                <span class="end-card d-flex align-items-center">
+                    <form style="border-radius: 30px; padding: 0px 40px;" action=""><input type="email" placeholder="Email Address"></form>
+                    <button class="endbtx">Subscribe</button>
+                </span>
+            </div>
+
+            <div class="row mx-auto py-5 " style="background-color: #0fab7f;">
+
+                <div class="col-xl-5 px-xl-5 d-flex flex-column gap-4 text-white">
+                    <h1 class="fs-3 fw-bold">Raiou Interior</h1>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus.</p>
+                    <span class="d-flex gap-4">
+                        <i class="fa-brands fa-facebook fs-4 text-white" style="padding: 10px 10px; background-color: rgba(255, 255, 255, 0.306); border-radius: 50%;"></i>
+                        <i class="fa-brands fa-twitter fs-4 text-white" style="padding: 10px 10px; background-color: rgba(255, 255, 255, 0.306); border-radius: 50%;"></i>
+                        <i class="fa-brands fa-youtube fs-4 text-white" style="padding: 10px 10px; background-color: rgba(255, 255, 255, 0.306); border-radius: 50%;"></i>
+                        <i class="fa-brands fa-pinterest fs-4 text-white" style="padding: 10px 10px; background-color: rgba(255, 255, 255, 0.306); border-radius: 50%;"></i>
+                    </span>
+                </div>
+
+                <div class="col-xl-2 d-flex flex-column text-white mt-xl-0 mt-5">
+                    <h1 class="fs-3 fw-bold">Quick Links</h1>
+                    <span class="d-flex flex-column gap-3 mt-3 end-bbx">
+                        <a href="">Homepage</a>
+                        <a href=""> About Us</a>
+                        <a href="">Our Services</a>
+                        <a href=""> Our Pricing</a>
+                        <a href="">FAQs</a>
+                    </span>
+                </div>
+
+                <div class="col-xl-2 d-flex flex-column text-white mt-xl-0 mt-5">
+                    <h1 class="fs-3 fw-bold">Our Service</h1>
+                    <span class="d-flex flex-column gap-3 mt-3 end-bbx">
+                        <a href=""> House Interior</a>
+                        <a href=""> Office Interior</a>
+                        <a href="">Building Interior</a>
+                        <a href="">Hotel Interior</a>
+                        <a href="">Our Portfolio</a>
+                    </span>
+                </div>
+
+                <div class="col d-flex flex-column text-white mt-xl-0 mt-5">
+                    <h1 class="fs-3 fw-bold">Usefull Links </h1>
+                    <span class="d-flex flex-column gap-3 mt-3 end-bbx">
+                        <a href=""> Contact Us</a>
+                        <a href=""> Lets Get In Touch</a>
+                        <a href="">Term Of Use</a>
+                        <a href=""> Disclaimer</a>
+                        <a href="">Privacy Policy</a>
+                    </span>
+                </div>
+            </div>
+
+
+            
+            <div class="col-12 px-4 d-flex align-items-center justify-content-center" style=" background-color: #0fab7f; ">
+                <span style="border-top: 1px solid rgba(255, 255, 255, 0.753); width: 100%;">
+                    <p class="mt-5 text-white" style="letter-spacing: 1px; text-align: center;">ALLRIGHT RESERVED - DESIGN BY MAULIK SOLANKI</p>
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="fun.js"></script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
